@@ -2,3 +2,4 @@
 - [AppArmor](https://kubernetes.io/docs/tutorials/security/apparmor/)
 - [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 - [Authz](https://kubernetes.io/docs/reference/access-authn-authz/authorization/)
+- [Trivy Install](https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh)
