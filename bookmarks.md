@@ -5,3 +5,4 @@
 - [Trivy Install](https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh)
 - [Admission Controller](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#how-do-i-turn-on-an-admission-controller)
 - [Image Policy Webhook](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#imagepolicywebhook)
+- [Security Context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
