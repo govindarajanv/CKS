@@ -1,3 +1,4 @@
 - [Networkpolicy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [AppArmor](https://kubernetes.io/docs/tutorials/security/apparmor/)
 - [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
+- [Authz](https://kubernetes.io/docs/reference/access-authn-authz/authorization/)
