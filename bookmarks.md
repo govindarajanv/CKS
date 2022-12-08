@@ -12,5 +12,7 @@
 - [Networkpolicy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 - [Runtime Class](https://kubernetes.io/docs/concepts/containers/runtime-class/#2-create-the-corresponding-runtimeclass-resources)
+- [Secrets Volumes](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)
+- [Secrets Consumption](https://kubernetes.io/docs/concepts/configuration/secret/#consuming-secret-values-from-volumes)
 - [Security Context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 - [Trivy Install](https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh)
