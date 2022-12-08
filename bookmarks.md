@@ -8,5 +8,6 @@
 - [Kubesec](https://github.com/aquasecurity/kube-bench/blob/main/docs/running.md#running-kube-bench)
 - [Networkpolicy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
+- [Runtime Class](https://kubernetes.io/docs/concepts/containers/runtime-class/#2-create-the-corresponding-runtimeclass-resources)
 - [Security Context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
 - [Trivy Install](https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh)
