@@ -11,6 +11,7 @@
 - [Kubesec](https://github.com/aquasecurity/kube-bench/blob/main/docs/running.md#running-kube-bench)
 - [Networkpolicy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [PSP Privileged POD](https://kubernetes.io/id/docs/concepts/policy/pod-security-policy/#membuat-sebuah-kebijakan-dan-sebuah-pod)
+- [PSP AllowedHostPath](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#allowedhostpath-v1beta1-policy)
 - [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 - [Runtime Class](https://kubernetes.io/docs/concepts/containers/runtime-class/#2-create-the-corresponding-runtimeclass-resources)
 - [Secrets Volumes](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)
