@@ -5,6 +5,7 @@
 - [Authz](https://kubernetes.io/docs/reference/access-authn-authz/authorization/)
 - [Cluster Upgrade](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/)
 - [Image Policy Webhook](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#imagepolicywebhook)
+- [Kubesec](https://github.com/aquasecurity/kube-bench/blob/main/docs/running.md#running-kube-bench)
 - [Networkpolicy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
 - [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 - [Security Context](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
