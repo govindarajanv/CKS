@@ -1,5 +1,10 @@
 # Notes
 
+- Set auto-completion
+  ```
+  source <(kubectl completion bash)
+  echo "source <(kubectl completion bash)" >> ~/.bashrc
+  ```
 - delete pod without delay $ kubectl delete pod <podname> --now or $ kubectl delete pod <pod-name> --force --grace-period 0
 - quick look up on documentation $ kubectl explain pod --recursive
 - kube-bench
