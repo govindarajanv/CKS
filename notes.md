@@ -1,5 +1,6 @@
 # Notes
 
+- delete pod without delay $ kubectl delete pod <podname> --now or $ kubectl delete pod <pod-name> --force --grace-period 0
 - quick look up on documentation $ kubectl explain pod --recursive
 - kube-bench
   - kube-bench run --targets master --check 1.2.20
