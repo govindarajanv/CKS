@@ -7,6 +7,7 @@
   - set user using USER
   - To share the same PID kernel namespace $ docker run -d --name app2 --pid=container:app1 -d nginx:alpine sleep infinity
   - tags can be overwritten where as image digest cannot be overwritten
+- get exe path from /proc/<pid>/exe
 - log files
   -  /var/log/pods
   -  /var/log/containers
