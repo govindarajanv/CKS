@@ -49,3 +49,5 @@
 - strace can be used to trace syscalls
   - strace <command>
   - strace -p <pid> -f -cw
+- secret key will be append as the path to the mounted path
+  - mounted path /etc/givenpath and secret is password=dummy; secret is available at /etc/givenpath/password
