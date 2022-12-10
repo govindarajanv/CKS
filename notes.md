@@ -39,4 +39,6 @@
   - create users using set-credentials using client key and certificate
   - a context will have a mapping between users and a cluster. create a context using set-context
   - activate the context using use-context
-  
+- strace can be used to trace syscalls
+  - strace <command>
+  - strace -p <pid> -f -cw
