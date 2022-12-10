@@ -1,5 +1,7 @@
 # Notes
 
+- kube-bench
+  - kube-bench run --targets master --check 1.2.20
 - log files
   -  /var/log/pods
   -  /var/log/containers
@@ -8,3 +10,27 @@
   - crictl logs
 - Existing labels won't be allowed to modified once NodeRestriction is enabled using --enable-admission-plugins=NodeRestriction
 - We need to use the annotation on Pod level, not Deployment level
+- Audit logs
+  - create the log directory
+  - audit log file path and audit policy switches should be added
+- Providing access to a given user
+  - create key. $ openssl genrsa -out <user>.key 2048
+  - create CSR. $ openssl req -new -key <user>.key -out <user>.csr
+  - create CRT by signing the CSR $ openssl x509 -req -in <user>.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out 60099.crt -days 500
+  - Create a new context for kubectl named 60099@internal.users which uses this CRT to connect to K8s
+  ```
+  k config set-credentials <user> --client-key=<user>.key --client-certificate=<user>.crt
+  k config set-context <context> --cluster=kubernetes --user=<user>
+  k config get-contexts
+  k config use-context <context>
+  ```
+- create users steps
+  - create a key and a csr using openssl
+  - convert csr to base64
+  - create a certificate signing request in yaml and set the encoded value
+  - get your csr created and approved
+  - get the certificate from the approved csr
+  - create users using set-credentials using client key and certificate
+  - a context will have a mapping between users and a cluster. create a context using set-context
+  - activate the context using use-context
+  
