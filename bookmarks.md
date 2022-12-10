@@ -11,6 +11,7 @@
 - [Image Policy Volumes](https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/#log-backend)
 - [Kubesec](https://github.com/aquasecurity/kube-bench/blob/main/docs/running.md#running-kube-bench)
 - [Networkpolicy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+- [OpenSSL](https://kubernetes.io/docs/tasks/administer-cluster/certificates/#openssl)
 - [PSP Privileged POD](https://kubernetes.io/id/docs/concepts/policy/pod-security-policy/#membuat-sebuah-kebijakan-dan-sebuah-pod)
 - [PSP AllowedHostPath](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#allowedhostpath-v1beta1-policy)
 - [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
