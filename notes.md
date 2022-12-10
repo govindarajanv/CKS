@@ -1,5 +1,6 @@
 # Notes
 
+- quick look up on documentation $ kubectl explain pod --recursive
 - kube-bench
   - kube-bench run --targets master --check 1.2.20
 - Container security
