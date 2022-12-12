@@ -18,6 +18,7 @@
 - [PSP AllowedHostPath](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#allowedhostpath-v1beta1-policy)
 - [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 - [Runtime Class](https://kubernetes.io/docs/concepts/containers/runtime-class/#2-create-the-corresponding-runtimeclass-resources)
+- [Seccomp](https://kubernetes.io/docs/tutorials/security/seccomp/#create-a-pod-with-a-seccomp-profile-for-syscall-auditing)
 - [Secrets Volumes](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)
 - [Secrets Consumption](https://kubernetes.io/docs/concepts/configuration/secret/#consuming-secret-values-from-volumes)
 - [Security Context Pod](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-pod)
