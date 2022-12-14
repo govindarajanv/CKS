@@ -4,6 +4,7 @@
 - [Audit Log Backend](https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/#log-backend)
 - [Authz](https://kubernetes.io/docs/reference/access-authn-authz/authorization/)
 - [Certificate Signing Request](https://kubernetes.io/docs/reference/access-authn-authz/certificate-signing-requests/#create-private-key)
+- [Container Images](https://kubernetes.io/docs/tasks/access-application-cluster/list-all-running-container-images/#list-container-images-by-pod)
 - [Cluster Upgrade](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/)
 - [Context & User](https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/#define-clusters-users-and-contexts)
 - [Falco-docs](https://falco.org/docs/rules/supported-fields/#field-class-container)
