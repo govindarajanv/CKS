@@ -55,3 +55,4 @@
   ```
   falco -M 45 -r monitor_rules.yml > falco_output.log
   ```
+- check if gvisor is running $ kubectl exec -n <podname> -- dmesg
