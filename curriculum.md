@@ -14,6 +14,7 @@
 - **RBAC & ServiceAccounts**
 - Cluster Hardening
 - Admission Controls
+- New User setup
 
 ## 15% - System Hardening
 - **AppArmor**
@@ -24,11 +25,11 @@
 - **Runtime class (gvisor, kata containers)**
 - pod to pod encryption using mTLS
 - **Image Policy Webhook**
-- **Dockerfile Best Practices**
+- Dockerfile Best Practices
 
 ## 20% - Supply Chain Security
 - **Trivy**
-- 
+- Kubesec
 
 ## 20% - Monitoring, Logging and Runtime Security
 - **Falco**
