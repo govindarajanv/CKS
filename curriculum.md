@@ -15,6 +15,7 @@
 - Cluster Hardening
 - Admission Controls
 - New User setup
+- Ingress
 
 ## 15% - System Hardening
 - **AppArmor**
@@ -34,4 +35,5 @@
 ## 20% - Monitoring, Logging and Runtime Security
 - **Falco**
 - Container Immutability
-- **Audit Logs & Audit Policy**
+- **Audit Logs**
+- **Audit Policy**
