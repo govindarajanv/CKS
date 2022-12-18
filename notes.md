@@ -56,3 +56,4 @@
   falco -M 45 -r monitor_rules.yml > falco_output.log
   ```
 - check if gvisor is running $ kubectl exec -n <podname> -- dmesg
+- kubectl auth can-i if used for service account should use "--as system:serviceaccount:namespace:sa" and also remember to use the correct namespace
