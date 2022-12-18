@@ -2,7 +2,7 @@
 
 - Before careful with volume mounts. Mount only with container scope not at pod scope (particularly confusing in deployments)
 - pod creation 
-  ``` kubectl --dry-run=client -o yaml run podname --image=nginx --command -- sleep infinity```
+  ``` kubectl --dry-run=client -o yaml run podname --image=nginx --command -- sh -c 'sleep infinity'```
 - Set auto-completion
   ```
   source <(kubectl completion bash)
