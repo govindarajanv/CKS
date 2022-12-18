@@ -66,3 +66,4 @@
 - kubectl auth can-i if used for service account should use "--as system:serviceaccount:namespace:sa" and also remember to use the correct namespace
 - To scan an image ```$ trivy image --severity=CRITICAL,HIGH nginx | grep CRITICAL```
 - For image policy webhook, mount the entire folder path without trailing "/" after the folder name instead of mounting each files
+- If shasum or shas512sum is not available then install using ```apt install hashalot```
