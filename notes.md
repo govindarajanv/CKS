@@ -57,4 +57,4 @@
   ```
 - check if gvisor is running $ kubectl exec -n <podname> -- dmesg
 - kubectl auth can-i if used for service account should use "--as system:serviceaccount:namespace:sa" and also remember to use the correct namespace
-- To scan an image ```$ trivy image --severity=CRITICAL nginx | grep CRITICAL```
+- To scan an image ```$ trivy image --severity=CRITICAL,HIGH nginx | grep CRITICAL```
