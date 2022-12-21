@@ -46,7 +46,7 @@
 - To test an image ```k run opa-test --image=```
 
 ## AppArmor
-- Remember to add anotations
+- Remember to add annotations
 
 ## Runtimeclass
 - Add runtime class in pod manifest after creating the runtime class
