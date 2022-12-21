@@ -55,7 +55,7 @@
   - activate the context using use-context
 - strace can be used to trace syscalls
   - strace <command>
-  - strace -p <pid> -f -cw
+  - **strace -p <pid> -f -cw**
 - secret key will be append as the path to the mounted path
   - mounted path /etc/givenpath and secret is password=dummy; secret is available at /etc/givenpath/password
 - Running falco for given rule file
@@ -63,7 +63,7 @@
   falco -M 45 -r monitor_rules.yml > falco_output.log
   ```
 - check if gvisor is running $ kubectl exec -n <podname> -- dmesg
-- kubectl auth can-i if used for service account should use "--as system:serviceaccount:namespace:sa" and also remember to use the correct namespace
+- kubectl auth can-i if used for service account should use "--as **system:serviceaccount:namespace:sa**" and also remember to use the correct namespace
 - To scan an image ```$ trivy image --severity=CRITICAL,HIGH nginx | grep CRITICAL```
 - For image policy webhook, mount the entire folder path without trailing "/" after the folder name instead of mounting each files
 - If shasum or shas512sum is not available then install using ```apt install hashalot```
