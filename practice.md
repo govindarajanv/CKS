@@ -4,6 +4,10 @@
 - playaround with networkpolicy based on conditions
 
 ## Audit log
+- update two fields --audit-policy-file and --audit-log-path
+- two volume mounts 
+  - one for policy yaml (FQ Path)
+  - one for parent folder of log file
 
 ## ImagePolicy Webhook
 - Same as audit log but
