@@ -13,8 +13,8 @@
 
 ## Kube-bench & CIS
 - run kube-bench for 
-  - ```kube-bench run --targets=master --check 1.2.3
-  - ```kube-bench run --targets=node --check 1.2.3
+  - ```kube-bench run --targets=master --check 1.2.3```
+  - ```kube-bench run --targets=node --check 1.2.3```
 ## Misc
 - Get the name of all the contexts ```kubectl config get-contexts -o name```
 - view certificate of all the contexts ```kubectl config view --raw```
