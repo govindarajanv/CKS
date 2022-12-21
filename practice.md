@@ -5,7 +5,10 @@
 
 ## ImagePolicy Webhook
 
+## Audit log
 
+## Pod Security Standards
+- Add this label into the namespace ```pod-security.kubernetes.io/enforce: baseline```
 
 ## Falco
 - practice changing falco_rules.local.yaml
@@ -20,7 +23,9 @@
 - view certificate of all the contexts ```kubectl config view --raw```
 - crictl commands 
   - ```crictl pods --name <deployment name>```
-  - ```crictl ps --pod <pod name>```
+  - ```crictl ps --pod <pod id>```
+  - ```crictl inspect <container id> | grep args -A1```
+  - ```ps aux| grep 
 
 ## Platform Binaries
 - Install hashalot
