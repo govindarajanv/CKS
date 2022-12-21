@@ -68,3 +68,4 @@
 - For image policy webhook, mount the entire folder path without trailing "/" after the folder name instead of mounting each files
 - If shasum or shas512sum is not available then install using ```apt install hashalot```
 - Use "echo -n <string"| base64" as "-n" will ignore newline character
+- if kubernetes-service-node-port is modified, please delete the associated service and its gets recreated automatically (static pods)
