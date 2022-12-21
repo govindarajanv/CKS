@@ -34,7 +34,7 @@
   - ```crictl pods --name <deployment name>```
   - ```crictl ps --pod <pod id>```
   - ```crictl inspect <container id> | grep args -A1```
-  - ```ps aux| grep 
+  - ```ps aux| grep ```
 
 ## Platform Binaries
 - Install hashalot
