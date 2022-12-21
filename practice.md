@@ -1,5 +1,13 @@
 # Practice for fluency
 
+## Pre-requisites
+- ~/.vimrc  set tabstop=2 shiftwidth=2 expandtab
+- export do="--dry-run=client -o yaml"
+- export now="--force --grace-period 0"
+- echo "source <(kubectl completion bash)" > ~/.bashrc
+- kubectl -n default run nginx --image=nginx --command -- sh -c "sleep 1d" $do
+- kubectl delete pod nginx $now
+
 ## Network Policy
 - playaround with networkpolicy based on conditions
 
