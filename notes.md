@@ -19,7 +19,7 @@
 - Container security
   - rm bash and sh from /usr/bin
   - set user using USER
-  - To share the same PID kernel namespace $ docker run -d --name app2 --pid=container:app1 -d nginx:alpine sleep infinity
+  - To share the same PID kernel namespace $ docker run -d --name app2 **--pid=container:app1** -d nginx:alpine sleep infinity
   - tags can be overwritten where as image digest cannot be overwritten
 - get exe path from /proc/<pid>/exe
 - log files
@@ -29,7 +29,7 @@
   - /var/log/syslog
   - crictl logs
 - Existing labels won't be allowed to modified once NodeRestriction is enabled using --enable-admission-plugins=NodeRestriction
-- We need to use the annotation on Pod level, not Deployment level
+- **We need to use the annotation on Pod level, not Deployment level**
 - Audit logs
   - create the log directory
   - audit log file path and audit policy switches should be added
