@@ -3,13 +3,14 @@
 ## Network Policy
 - playaround with networkpolicy based on conditions
 
+## Audit log
+
 ## ImagePolicy Webhook
 - Same as audit log but
   - --admission-control-config-file=<policy>
   - --enable-admission-plugins=ImagePolicyWebhook
   - mount the path instead of files as we have both policy and kubeconfig
-
-## Audit log
+- run a pod and test
 
 ## Pod Security Standards
 - Add this label into the namespace ```pod-security.kubernetes.io/enforce: baseline```
